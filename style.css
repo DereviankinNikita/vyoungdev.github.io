@@ -22,6 +22,12 @@ a:hover {
 color: white;
 }
 
+.search {
+	position: absolute;
+	left: 1445px;
+	top: 40px;
+}
+
 .header{
 margin: 0;
 padding: 0;
@@ -48,12 +54,21 @@ height: 120px;
 	
 }
 
+
+/*search window*/
+
+
+
+
+/*search window end*/
+
+
 #main-menu {
 background-color: black;
-height: 100px;
+height: 60px;
 display: block;
 padding-top: 3px;
-padding-bottom: 0px;
+padding-bottom: 20px;
 font-size: 30px;
 font-family: 'Roboto' sans-serif;
 color: white;
@@ -61,11 +76,13 @@ color: white;
 
 #main-menu ul {
 text-align: center;
+
 }
 
 #main-menu ul li {
 	position: relative;
 	list-style: none;
+	margin-bottom: 15px;
 	display: inline;
 	margin-right: 55px;
 
@@ -79,9 +96,10 @@ text-align: center;
 #main-menu ul li a:hover {
 	color: #b8af6a
 }
-/*drop menu*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!drop menu!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     */
 #main-menu .drop-down{
 	position: absolute;
+	border-radius: 9px;
 	padding: 0;
 	margin: 0;
 	top: 100%;
@@ -109,7 +127,7 @@ text-align: center;
 	height: 45px;
 }
 
-
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!drop menu end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     */
 
 .content{
 display: block;
