@@ -1,5 +1,6 @@
 body{
 	font-size: 30px;
+	font-family: 'Verdana', sans-serif;
 	margin: 0px;
 	padding: 0;
 	background-color: #fff;
@@ -40,9 +41,9 @@ height: 120px;
 	margin-top: 0px;
 	padding-top: 40px;
 	padding-left: 90px;
-	font-family:'Bitter', serif;
+	font-family: 'Arial', serif;
 	text-transform: uppercase;
-	letter-spacing: 55px;
+	letter-spacing: 145px;
 	font-size: 40px;
 	text-align: center;
 }
@@ -80,6 +81,7 @@ text-align: center;
 }
 
 #main-menu ul li {
+	color: black;
 	position: relative;
 	list-style: none;
 	margin-bottom: 15px;
@@ -108,7 +110,7 @@ text-align: center;
 	font-size: 20px;
 	text-align: left;
 	padding: 20px;
-	background-color: #161616;
+	background-color:rgba(255, 255, 255, 0.8);
 	display: none;
 }
 
@@ -117,6 +119,7 @@ text-align: center;
 }
 
 #main-menu .drop-down li {
+	color: black;
 	width: 190%;
 	height: 90px;
 	
@@ -125,6 +128,7 @@ text-align: center;
 #main-menu .drop-down li a {
 	line-height: 45px;
 	height: 45px;
+	color: black;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!drop menu end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     */
