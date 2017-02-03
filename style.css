@@ -23,12 +23,6 @@ a:hover {
 color: white;
 }
 
-.search {
-	position: absolute;
-	left: 1445px;
-	top: 40px;
-}
-
 .header{
 margin: 0;
 padding: 0;
@@ -41,7 +35,7 @@ height: 70px;
 	margin-top: 0px;
 	padding-top: 40px;
 	padding-left: 90px;
-	font-family: 'Arial', serif;
+	font-family: 'Gautami Regular', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 145px;
 	font-size: 40px;
@@ -57,7 +51,6 @@ height: 70px;
 
 
 /*search window*/
-
 
 
 
@@ -107,11 +100,11 @@ text-align: center;
 	margin: 0;
 	top: 100%;
 	left: 10px;
-	width: 180px;
+	width: 250px;
 	font-size: 20px;
 	text-align: left;
 	padding: 20px;
-	background-color:rgba(255, 255, 255, 0.8);
+	background-color:#000;
 	display: none;
 }
 
@@ -120,7 +113,7 @@ text-align: center;
 }
 
 #main-menu .drop-down li {
-	color: black;
+	color: #fff;
 	width: 190%;
 	height: 90px;
 	
@@ -129,7 +122,7 @@ text-align: center;
 #main-menu .drop-down li a {
 	line-height: 45px;
 	height: 45px;
-	color: black;
+	color: #fff;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!drop menu end!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     */
@@ -138,17 +131,17 @@ text-align: center;
 display: block;
 margin: 0;
 padding: 0;
-min-height: 850px;
-background-image: url("img/back.jpg");
+min-height: 1050px;
+background-image: url("img/1.jpg");
 background-repeat: no-repeat;
 background-position: center bottom;
-background-size: 80%;
+background-size: 100%;
 }
 
 
 .footer{
-display: block;
-background:#EDEEF0;
+background:#000;
+color: #fff;
 font-size: 30px;
 min-height: 130px;
 position: bottom;
