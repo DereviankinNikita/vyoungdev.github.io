@@ -6,7 +6,7 @@ body{
 	background-color: #fff;
 }
 
-.container-fluid {
+.wrapper {
 	margin: 0;
 	padding: 0;
 	min-width: 1170px;
@@ -140,8 +140,9 @@ text-align: center;
 display: block;
 margin: 0;
 padding: 0;
-min-height: 1100px;
+min-height: 1000px;
 background-image: url(../img/1.jpg);
+max-width: 100%;
 background-size: cover;
 background-repeat: no-repeat;
 
